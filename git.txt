@@ -1,0 +1,8 @@
+git init
+
+curl -u Andersonhere https://api.github.com/user/repos -d '{"name":"Timestamp"}'
+
+git config --local user.name "Andersonhere"
+git config --local user.email "1694064386@qq.com"
+
+git remote add origin git@github.com:Andersonhere/Timestamp.git
