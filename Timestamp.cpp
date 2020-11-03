@@ -37,7 +37,7 @@ Times stamp_to_standard(int stampTime)
 }
 int main(int argc ,char *argv[])
 {
-	printf("**")
+	printf("**");
         int timestamp=atoi(argv[1]);
         stamp_to_standard(timestamp);
         return 0;
