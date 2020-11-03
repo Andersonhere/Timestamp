@@ -1,5 +1,7 @@
 #include <iostream>
 #include <time.h>
+#include <cstdio>
+#include <cstdlib>
 typedef struct times
 {
         int Year;
